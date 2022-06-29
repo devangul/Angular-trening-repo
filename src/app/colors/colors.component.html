@@ -1,0 +1,17 @@
+<h2 class="display-6">Поиск по ID: <input class="me-2"  [(ngModel)]="str"></h2>
+<div class="container-fluid">
+
+    <div class="row">
+      <div *ngFor="let response of Response | filter:str" class="col-2">
+         <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="{{response.thumbnailUrl}}" alt="Card image cap">
+      <div class="card-body">
+        <p>{{response.id}}</p>
+        <p class="card-text">{{response.title}}</p>
+      </div>
+    </div>
+      </div>
+    </div>
+   
+   
+  </div>

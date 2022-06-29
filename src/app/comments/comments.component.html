@@ -1,0 +1,23 @@
+
+
+
+    <h2 class="display-6">Поиск по ID: <input class="me-2"  [(ngModel)]="str"></h2>
+<table class="table">
+  <thead class="bg-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">PostId</th>
+      <th scope="col">Email</th>
+      <th scope="col">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let com of comment | filter:str">
+      
+<td>{{com.id}}</td>
+<td>{{com.postId}}</td>
+<td>{{com.email}}</td>
+<td>{{com.body}}</td>
+    </tr>
+  </tbody>
+</table>

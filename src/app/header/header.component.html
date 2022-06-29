@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" type="button" href="#">Security <img src="assets/icons/icons8-сканирование-сетчатки-64.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" type="button" aria-current="page" href="#">Home <img src="assets/icons/icons8-под-охраной-сигнализации-64.png" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" type="button" href="#">Content <img src="assets/icons/icons8-voice-id-64.png" alt=""></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" type="button" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown <img src="assets/icons/icons8-великий-мастер-ключ-64.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" type="button" href="#" tabindex="-1" aria-disabled="true">Disabled <img src="assets/icons/icons8-безопасность-64.png" alt=""></a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" [(ngModel)]="str">
+          <a class="nav-link active search" type="button">Search <img src="assets/icons/icons8-цилиндрическая-камера-64.png" alt=""></a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-two">
+    <div class="routing"><h4>Routing: {{rout}} </h4></div>
+    <div class="time"><h4 >Date: {{time1}},{{time2}}</h4></div>
+
+  </nav>

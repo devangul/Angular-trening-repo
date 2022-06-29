@@ -1,0 +1,35 @@
+.container-fluid{
+    padding-top: 2%;
+}
+
+img{
+
+    width: auto;
+    height: 300px;
+}
+
+
+
+input{
+    width: 10rem;
+}
+
+h2{
+    color: white;
+margin-bottom: 1rem;
+}
+
+input{
+    border: 1px solid #5A009D;
+    border-radius: 5px;
+}
+
+.col-2{
+    margin-bottom: 1rem;
+}
+
+.card{
+    border: 1px solid black;
+   
+    
+}

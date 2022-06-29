@@ -1,0 +1,33 @@
+
+<h2 class="display-6">Поиск по ID: <input class="me-2"  [(ngModel)]="str"></h2>
+<table class="table">
+  <thead class="bg-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">City</th>
+      <th scope="col">Company</th>
+      <th scope="col">Name</th>
+      <th scope="col">Username</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Zipcode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let response of Response | filter:str">
+      
+<td>{{response.id}}</td>
+<td>{{response.address.city}}</td>
+<td>{{response.company.name}}</td>
+<td>{{response.name}}</td>
+<td>{{response.username}}</td>
+<td>{{response.email}}</td>
+<td>{{response.address.street}}, {{response.address.suite}}</td>
+<td>{{response.phone}}</td>
+<td>{{response.address.zipcode}}</td>
+    </tr>
+  </tbody>
+</table>
+
+  

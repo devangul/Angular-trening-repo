@@ -1,0 +1,27 @@
+.container-fluid{
+    padding-top: 1%;
+    text-align:center;
+   
+}
+
+img{
+
+    width: auto;
+    height: 300px;
+}
+
+h1{
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+.btn-group{
+    margin-bottom: 1rem; 
+    
+    border: 1px solid #5A009D;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+}

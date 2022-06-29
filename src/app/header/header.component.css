@@ -1,0 +1,54 @@
+img{
+    width: 32px;
+    height: 32px;
+}
+
+a{
+    border: 1px solid #5A009D;
+   margin-right: 1.5rem;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 4px;
+   
+}
+
+.nav-link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.nav-link:hover{
+    transform: translateY(-0.25rem);
+}
+
+
+.search{
+    width:9.5rem;
+    margin-right: 0rem;
+}
+
+.navbar-brand{
+    border: 0px solid black;
+}
+
+.navbar-two{
+    background: #5A009D;
+}
+
+h4{
+    color: whitesmoke;
+}
+
+.time{
+width: 100%;
+text-align: right;
+padding-right: 1rem;
+}
+
+.routing{
+    width: 100%;
+    text-align: left;
+    padding-left: 1.2rem;
+}
+

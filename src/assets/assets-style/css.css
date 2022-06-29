@@ -1,0 +1,26 @@
+body {   
+    /* Местоположение фоновой картинки */   background-image: url('../background/Watercolour_texture_in_black_with_diagonal_veins.jpg');      
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+    /* Фон не повторяется */   background-repeat: no-repeat;      
+    /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
+    /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+    /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646; }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: rgb(75, 74, 74);
+        width: 1rem;
+      }
+
+      
+      ::-webkit-scrollbar-thumb{
+        background: #5A009D;
+        height: 3rem;
+        border-radius: 3px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover{
+        background: #7f16cf;
+        height: 3rem;
+      }
+      
