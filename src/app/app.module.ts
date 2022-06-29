@@ -17,6 +17,8 @@ import { UserComponent } from './user/user.component';
 import { ColorsComponent } from './colors/colors.component';
 import { CommentsComponent } from './comments/comments.component';
 import { CommentsService } from './service/cooments.service';
+import { TodosComponent } from './todos/todos.component';
+import { TodosService } from './service/todos.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { CommentsService } from './service/cooments.service';
     UserComponent,
     ColorsComponent,
     FilterPipe,
-    CommentsComponent
+    CommentsComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,7 @@ import { CommentsService } from './service/cooments.service';
     FormsModule,
     HttpClientModule
   ],
-  providers: [PhotosService, UserService, CommentsService],
+  providers: [PhotosService, UserService, CommentsService, TodosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
