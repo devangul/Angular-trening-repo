@@ -10,7 +10,7 @@ import { TodosService } from '../service/todos.service';
 export class TodosComponent implements OnInit {
 
 Response: Todos | any;
-
+str = '';
   constructor(private todosService: TodosService) {
 this.todosService.TodosFunc().subscribe(res=>{
   this.Response = res;
