@@ -1,5 +1,5 @@
 body {   
-    /* Местоположение фоновой картинки */   background-image: url('../background/Watercolour_texture_in_black_with_diagonal_veins.jpg');      
+    /* Местоположение фоновой картинки */   background-image: url('../background/abstract_background_with_a_low_poly_design_0107.jpg');      
     /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
     /* Фон не повторяется */   background-repeat: no-repeat;      
     /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
