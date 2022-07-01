@@ -5,13 +5,27 @@ import { CommentsComponent } from "./comments/comments.component";
 import { UserComponent } from "./user/user.component";
 import { TodosComponent } from "./todos/todos.component";
 import { AlbumsComponent } from "./albums/albums.component";
+import { MainMenuComponent } from "./main-menu/main-menu.component";
+import { ContentComponent } from "./main-menu/content/content.component";
 
 const routes: Routes = [
-  { path: "src/app/colors", component: ColorsComponent },
-  { path: "src/app/user", component: UserComponent },
-  { path: "src/app/comments", component: CommentsComponent },
-  { path: "src/app/todos", component: TodosComponent },
-  { path: "src/app/albums", component: AlbumsComponent },
+  {
+    path: "src/app/main-menu",
+    component: MainMenuComponent,
+    children: [
+      {
+        path: "content",
+        component: ContentComponent,
+        children: [
+          { path: "colors", component: ColorsComponent },
+          { path: "user", component: UserComponent },
+          { path: "comments", component: CommentsComponent },
+          { path: "todos", component: TodosComponent },
+          { path: "albums", component: AlbumsComponent },
+        ],
+      },
+    ],
+  },
   { path: "**", redirectTo: "/" },
 ];
 

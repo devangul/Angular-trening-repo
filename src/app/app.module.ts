@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ContentComponent } from './content/content.component';
+import { ContentComponent } from './main-menu/content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { PhotosService } from './service/photos.service';
 import { UserService } from './service/user.service';
@@ -21,6 +21,7 @@ import { TodosComponent } from './todos/todos.component';
 import { TodosService } from './service/todos.service';
 import { AlbumsComponent } from './albums/albums.component';
 import { AlbumsService } from './service/albums.service';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AlbumsService } from './service/albums.service';
     FilterPipe,
     CommentsComponent,
     TodosComponent,
-    AlbumsComponent
+    AlbumsComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,
