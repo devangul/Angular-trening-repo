@@ -1,0 +1,26 @@
+thead{
+    border: 1px solid #5A009D;
+}
+th{
+    color: whitesmoke;
+    
+}
+td{
+    border: 1px solid #5A009D; 
+    background: whitesmoke;
+}
+
+input{
+    width: 10rem;
+    border: 1px solid #5A009D;
+    border-radius: 5px;
+}
+
+h2{
+    color: black;
+margin-bottom: 1rem;
+}
+
+table{
+    margin-bottom: 4%;
+}

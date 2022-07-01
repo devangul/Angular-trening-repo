@@ -6,7 +6,7 @@ import { Albums } from "../interfaces/interfaces.albums";
   providedIn: "root",
 })
 export class AlbumsService {
-  url: string | any;
+  url = 'https://jsonplaceholder.typicode.com/albums';
   constructor(private http: HttpClient) {}
 
   Albums() {
