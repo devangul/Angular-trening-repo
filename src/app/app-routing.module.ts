@@ -26,7 +26,7 @@ const routes: Routes = [
       },
     ],
   },
-  { path: "**", redirectTo: "/" },
+  { path: "**", redirectTo: "src/app/main-menu" },
 ];
 
 @NgModule({
