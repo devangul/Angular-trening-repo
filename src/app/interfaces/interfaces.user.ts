@@ -4,20 +4,20 @@ name:string;
 username:string;
 email:string;
 adress:{
-    street:string,
-    suite:string,
-    city:string,
-    zipcode:string,
+    street:string;
+    suite:string;
+    city:string;
+    zipcode:string;
     geo: {
-      lat: string,
+      lat: string;
       lng: string
     }
 };
 phone:string;
 website:string;
 company:{
-    name: string,
-    catchPhrase: string,
+    name: string;
+    catchPhrase: string;
     bs:string
 }
 
