@@ -1,6 +1,7 @@
 
 
 <h2 class="display-6">Поиск по ID: <input class="me-2"  [(ngModel)]="str"></h2>
+
 <table class="table">
   <thead class="bg-dark">
     <tr>
@@ -11,7 +12,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let response of Response | filter_json:str"> 
+    <tr *ngFor="let response of Response | filter:str"> 
 <td>{{response.id}}</td>
 <td>{{response.userId}}</td>
 <td>{{response.title}}</td>
