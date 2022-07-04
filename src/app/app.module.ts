@@ -13,7 +13,6 @@ import { FooterComponent } from './footer/footer.component';
 import { PhotosService } from './service/photos.service';
 import { UserService } from './service/user.service';
 import { FilterPipe } from './pipe/filter.pipe';
-import { FilterJson } from './pipe/filter_json.pipe';
 import { UserComponent } from './user/user.component';
 import { ColorsComponent } from './colors/colors.component';
 import { CommentsComponent } from './comments/comments.component';
@@ -36,8 +35,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     CommentsComponent,
     TodosComponent,
     AlbumsComponent,
-    MainMenuComponent,
-    FilterJson
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,
